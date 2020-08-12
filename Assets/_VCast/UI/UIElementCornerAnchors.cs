@@ -19,7 +19,7 @@ namespace VCast.UI.DragDrop
     [RequireComponent(typeof(RectTransform))]
     public class UIElementCornerAnchors : MonoBehaviour
     {   
-        [SerializeField] Vector2 offset; 
+        [SerializeField] Vector2 offset = default; 
         public List<DropAnchor> anchors =  new List<DropAnchor>();
         RectTransform m_RectTransform;
         Vector2 m_Offset;
