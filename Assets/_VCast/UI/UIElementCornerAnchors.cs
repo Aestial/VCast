@@ -31,8 +31,7 @@ namespace VCast.UI.DragDrop
         private void OnEnable() 
         {
             m_Offset = new Vector2(m_RectTransform.rect.width/2 + offset.x, m_RectTransform.rect.height/2 + offset.y);
-            Debug.LogFormat("({0},{1})", m_Offset.x, m_Offset.y);
-
+            
             DropAnchor bottomLeft = new DropAnchor(new Vector2(m_Offset.x, m_Offset.y), new Rect(0,0,Screen.width/2, Screen.height/2));
             DropAnchor bottomRight = new DropAnchor(new Vector2(Screen.width - m_Offset.x, m_Offset.y), new Rect(Screen.width/2, 0,Screen.width/2, Screen.height/2));
             DropAnchor topLeft = new DropAnchor(new Vector2(m_Offset.x, Screen.height - m_Offset.y), new Rect(0,Screen.height/2, Screen.width/2, Screen.height/2));

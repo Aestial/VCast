@@ -136,11 +136,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Head
       value: 
-      objectReference: {fileID: 3042480863486316077}
+      objectReference: {fileID: 0}
     - target: {fileID: 2033002456425923058, guid: 350235c33fddc4999962053d5b416975,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390761102230523787, guid: 350235c33fddc4999962053d5b416975,
+        type: 3}
+      propertyPath: DrawGizmo
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6746927643911562214, guid: 350235c33fddc4999962053d5b416975,
         type: 3}
@@ -197,7 +202,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6168471626164149048, guid: 350235c33fddc4999962053d5b416975, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 350235c33fddc4999962053d5b416975, type: 3}
 --- !u!4 &5584013435285624366 stripped
 Transform:
@@ -208,12 +214,6 @@ Transform:
 --- !u!137 &930323890333971514 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2033002456425923058, guid: 350235c33fddc4999962053d5b416975,
-    type: 3}
-  m_PrefabInstance: {fileID: 1215831506768491976}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3042480863486316077 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4244238481832770533, guid: 350235c33fddc4999962053d5b416975,
     type: 3}
   m_PrefabInstance: {fileID: 1215831506768491976}
   m_PrefabAsset: {fileID: 0}

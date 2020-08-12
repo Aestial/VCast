@@ -14,7 +14,6 @@ namespace VCast.UI.DragDrop
         
         public override void OnPointerUp(PointerEventData eventData) 
         {
-            Debug.Log("Pointer UP!");
             CheckAnchors();
         }
         private void CheckAnchors ()
@@ -42,8 +41,7 @@ namespace VCast.UI.DragDrop
         {
             m_RectTransform = GetComponent<RectTransform>();
             m_CornerAnchors = GetComponent<UIElementCornerAnchors>();
-            m_DropAnchors = m_CornerAnchors.anchors;
-            PrintAnchors();
+            m_DropAnchors = m_CornerAnchors.anchors;            
             CheckAnchors();
         }
     }
