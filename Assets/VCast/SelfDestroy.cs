@@ -2,7 +2,7 @@
 
 public class SelfDestroy : MonoBehaviour
 {
-    void Awake()
+    void Start()
     {
         Destroy(gameObject);
     }
