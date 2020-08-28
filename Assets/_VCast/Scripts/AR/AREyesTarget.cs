@@ -48,8 +48,8 @@ namespace VCast.XR.ARFoundation
             float y  = -target.localPosition.y;
             float z  = target.localPosition.z * focalDistance;
             target.localPosition = new Vector3(x, y, z);
-            Debug.LogFormat("Eye target local position: {0}", target.localPosition);
-            Debug.LogFormat("Eye target position: {0}", target.position);            
+            // Debug.LogFormat("Eye target local position: {0}", target.localPosition);
+            // Debug.LogFormat("Eye target position: {0}", target.position);            
         }
     }
 }
