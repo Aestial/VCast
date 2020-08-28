@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/AR/FaceTracking.unity
+  - enabled: 0
+    path: Assets/_VCast/Scenes/AR/FaceTracking.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/_VCast/Scenes/TelepathyTest.unity
+    guid: c9fba6effbf0e48e0a2307620f09d7b2
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ec5fdcc3e17c24efcb00b4edc777fdab,
       type: 2}
