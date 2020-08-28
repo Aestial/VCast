@@ -7,13 +7,35 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.XR.ARKit;
 #endif
 
+using Telepathy;
+
 namespace VCast.XR.ARFoundation
 {
+    #if UNITY_IOS && !UNITY_EDITOR
+    [System.Serializable]
+    public class FaceBlendShapeCoefficients
+    {
+        public ARKitBlendShapeCoefficient[] blendShapeCoefficients;
+        public FaceBlendShapeCoefficients()
+        {
+            blendShapeCoefficients = new ARKitBlendShapeCoefficient[0];
+        }
+        public FaceBlendShapeCoefficients(NativeArray<ARKitBlendShapeCoefficient> na)
+        {
+            blendShapeCoefficients = na.ToArray();
+        }
+    }
+    #endif
     [RequireComponent(typeof(ARFace))]
     public class ARFaceBlendShape : MonoBehaviour
     {
         [SerializeField]
-        string strPrefix = "blendShape2.";
+        string m_StrPrefix = "blendShape2.";
+        public string strPrefix
+        {
+            get { return m_StrPrefix; }
+            set { m_StrPrefix = value; }
+        }
         [SerializeField]
         float m_CoefficientScale = 100.0f;
 
@@ -46,6 +68,8 @@ namespace VCast.XR.ARFoundation
 
         ARFace m_Face;
 
+        Server server = new Server();
+
         void Awake()
         {
             m_Face = GetComponent<ARFace>();
@@ -58,7 +82,7 @@ namespace VCast.XR.ARFoundation
             {
                 return;
             }
-    #if UNITY_IOS && !UNITY_EDITOR
+        #if UNITY_IOS && !UNITY_EDITOR
             m_FaceArkitBlendShapeIndexMap = new Dictionary<ARKitBlendShapeLocation, int>();
             // Brows
             m_FaceArkitBlendShapeIndexMap[ARKitBlendShapeLocation.BrowDownLeft        ]   = skinnedMeshRenderer.sharedMesh.GetBlendShapeIndex(strPrefix + "BRW_Angry");
@@ -161,13 +185,12 @@ namespace VCast.XR.ARFoundation
             // m_FaceArkitBlendShapeIndexMap[ARKitBlendShapeLocation.NoseSneerRight      ]   = skinnedMeshRenderer.sharedMesh.GetBlendShapeIndex(strPrefix + "noseSneer_R");
             // Tongue
             // m_FaceArkitBlendShapeIndexMap[ARKitBlendShapeLocation.TongueOut           ]   = skinnedMeshRenderer.sharedMesh.GetBlendShapeIndex(strPrefix + "tongueOut");
-    #endif
+        #endif
         }
 
         void SetVisible(bool visible)
         {
             if (skinnedMeshRenderer == null) return;
-
             // skinnedMeshRenderer.enabled = visible;
         }
 
@@ -183,22 +206,24 @@ namespace VCast.XR.ARFoundation
 
         void OnEnable()
         {
-    #if UNITY_IOS && !UNITY_EDITOR
+        #if UNITY_IOS && !UNITY_EDITOR
             var faceManager = FindObjectOfType<ARFaceManager>();
             if (faceManager != null)
             {
                 m_ARKitFaceSubsystem = (ARKitFaceSubsystem)faceManager.subsystem;
             }
-    #endif
+        #endif
             UpdateVisibility();
             m_Face.updated += OnUpdated;
             ARSession.stateChanged += OnSystemStateChanged;
+            server.Start(1337);
         }
-
+        
         void OnDisable()
         {
             m_Face.updated -= OnUpdated;
             ARSession.stateChanged -= OnSystemStateChanged;
+            server.Stop();
         }
 
         void OnSystemStateChanged(ARSessionStateChangedEventArgs eventArgs)
@@ -207,20 +232,30 @@ namespace VCast.XR.ARFoundation
         }
 
         void OnUpdated(ARFaceUpdatedEventArgs eventArgs)
-        {
+        {   
             UpdateVisibility();
-            UpdateFaceFeatures();
+        #if UNITY_IOS && !UNITY_EDITOR
+            FaceBlendShapeCoefficients coefficients = GetCoefficients();
+            UpdateFaceFeatures(coefficients);
+            SendData(coefficients);
+        #endif
         }
 
-        void UpdateFaceFeatures()
+    #if UNITY_IOS && !UNITY_EDITOR
+
+        FaceBlendShapeCoefficients GetCoefficients() 
+        {            
+            var coefficients = m_ARKitFaceSubsystem.GetBlendShapeCoefficients(m_Face.trackableId, Allocator.Temp);
+            return new FaceBlendShapeCoefficients(coefficients);
+        }
+
+        void UpdateFaceFeatures(FaceBlendShapeCoefficients coefficients)
         {
             if (skinnedMeshRenderer == null || !skinnedMeshRenderer.enabled || skinnedMeshRenderer.sharedMesh == null)
             {
                 return;
             }
-
-    #if UNITY_IOS && !UNITY_EDITOR
-            using (var blendShapes = m_ARKitFaceSubsystem.GetBlendShapeCoefficients(m_Face.trackableId, Allocator.Temp))
+            using (var blendShapes = coefficients.blendShapeCoefficients)
             {
                 foreach (var featureCoefficient in blendShapes)
                 {
@@ -234,7 +269,15 @@ namespace VCast.XR.ARFoundation
                     }
                 }
             }
-    #endif
         }
+        
+        void SendData(FaceBlendShapeCoefficients coefficients)
+        {
+            var data = Utils.ObjectSerializationExtension.SerializeToByteArray(coefficients);
+            server.Send(0, data);
+            // server.Send(0, new byte[]{});
+        }
+        
+    #endif
     }
 }
