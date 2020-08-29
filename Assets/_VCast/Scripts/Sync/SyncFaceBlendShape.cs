@@ -9,7 +9,7 @@ namespace VCast
 {
     using XR.ARFoundation;
 
-    public class SyncBlendShape : MonoBehaviour
+    public class SyncFaceBlendShape : MonoBehaviour
     {
         [SerializeField] string m_StrPrefix = "Face.M_F00_000_00_Fcl_";
         public string strPrefix
