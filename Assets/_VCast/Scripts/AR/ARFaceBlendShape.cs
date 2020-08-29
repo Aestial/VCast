@@ -216,16 +216,11 @@ namespace VCast.XR.ARFoundation
                     {
                         if (mappedBlendShapeIndex >= 0)
                         {
-                            skinnedMeshRenderer.SetBlendShapeWeight(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);
-                            // coefficients.Add(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);                            
+                            skinnedMeshRenderer.SetBlendShapeWeight(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);                         
                         }
-                    }
-                    else 
-                    {
-                        // Debug.Log("Cannot find coefficient with: " + featureCoefficient.blendShapeLocation.ToString());
-                    }
+                    }                    
                 }
-                // Debug.Log(coefficients.blendShapeCoefficients.Count);
+                Debug.Log(coefficients.blendShapeCoefficients.Count);
             }
         #endif
         }
