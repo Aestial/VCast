@@ -13,25 +13,25 @@ namespace VCast.XR.ARFoundation
     [System.Serializable]
     public class FaceBlendShapeCoefficients
     {
-        public Dictionary<int, float> blendShapeCoefficients;
+        public Dictionary<string, float> blendShapeCoefficients;
         public FaceBlendShapeCoefficients()
         {
-            blendShapeCoefficients = new Dictionary<int, float>();
+            blendShapeCoefficients = new Dictionary<string, float>();
         }
         public void Clear()
         {
             blendShapeCoefficients.Clear();
         }
-        public void Add(int index, float coefficient)
+        public void Add(string location, float coefficient)
         {
             try
             {
-                blendShapeCoefficients.Add(index, coefficient);    
+                blendShapeCoefficients.Add(location, coefficient);    
             }
             catch (System.Exception)
             {                
                 throw;
-            }            
+            }
         }
     }
 
@@ -72,8 +72,7 @@ namespace VCast.XR.ARFoundation
                 m_SkinnedMeshRenderer = value;
                 CreateFeatureBlendMapping();
             }
-        }
-        
+        }        
         public BlendShapeEvent onUpdatedEvent;
         
     #if UNITY_IOS && !UNITY_EDITOR
@@ -86,10 +85,9 @@ namespace VCast.XR.ARFoundation
         void Awake()
         {
             coefficients = new FaceBlendShapeCoefficients();
-            // update even if window isn't focused, otherwise we don't receive.
+            // Update even if window isn't focused, otherwise we don't receive.
             Application.runInBackground = true;
-
-            // use Debug.Log functions for Telepathy so we can see it in the console
+            // Use Debug.Log functions for Telepathy so we can see it in the console
             Telepathy.Logger.Log = Debug.Log;
             Telepathy.Logger.LogWarning = Debug.LogWarning;
             Telepathy.Logger.LogError = Debug.LogError;
@@ -212,13 +210,14 @@ namespace VCast.XR.ARFoundation
             {
                 foreach (var featureCoefficient in blendShapes)
                 {
+                    coefficients.Add(featureCoefficient.blendShapeLocation.ToString("G"), featureCoefficient.coefficient * coefficientScale);
                     int mappedBlendShapeIndex;
                     if (m_FaceArkitBlendShapeIndexMap.TryGetValue(featureCoefficient.blendShapeLocation, out mappedBlendShapeIndex))
                     {
                         if (mappedBlendShapeIndex >= 0)
                         {
                             skinnedMeshRenderer.SetBlendShapeWeight(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);
-                            coefficients.Add(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);                            
+                            // coefficients.Add(mappedBlendShapeIndex, featureCoefficient.coefficient * coefficientScale);                            
                         }
                     }
                     else 

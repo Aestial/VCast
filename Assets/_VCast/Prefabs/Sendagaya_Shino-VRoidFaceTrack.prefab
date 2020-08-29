@@ -90,9 +90,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c5063e85e411488d8d72af8598326dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strPrefix: Face.M_F00_000_00_Fcl_
+  m_StrPrefix: Face.M_F00_000_00_Fcl_
   m_CoefficientScale: 100
   m_SkinnedMeshRenderer: {fileID: 930323890333971514}
+  onUpdatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5279103696987301453
 MonoBehaviour:
   m_ObjectHideFlags: 0

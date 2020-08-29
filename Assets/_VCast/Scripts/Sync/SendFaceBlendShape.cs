@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using Telepathy;
 
 namespace VCast
@@ -10,49 +11,85 @@ namespace VCast
     
     public class SendFaceBlendShape : MonoBehaviour
     {
-        [SerializeField] string ip = "192.168.0.101";
+        [SerializeField] int connectionId = 0;
         [SerializeField] int port = 1337;
-        ARFaceBlendShape blendShape;
-        Client client;
+        
+        [SerializeField] TMP_Text outputTMP;
 
-        public void Connect()
+        ARFaceBlendShape blendShape;
+        
+        Server server = new Server();
+
+        int updateCount = 0;
+        
+        public void StartServer()
         {
-            client.Connect(ip, port);
+            server.Start(port);
             blendShape = FindObjectOfType<ARFaceBlendShape>();
             blendShape.onUpdatedEvent.AddListener(SendData);
         }
 
-        public void Disconnect()
+        public void StopServer()
         {
-            client.Disconnect();
+            if (server.Active)
+                server.Stop();
         }
 
         void Awake()
-        {
-            client = new Client();
+        {            
             Application.runInBackground = true;
+            Telepathy.Logger.Log = Debug.Log;
+            Telepathy.Logger.LogWarning = Debug.LogWarning;
+            Telepathy.Logger.LogError = Debug.LogError;
         }
 
         void OnApplicationQuit()
         {
-            client.Disconnect();
-        }
-
-        void SendData(FaceBlendShapeCoefficients coefficients)
-        {
-            if (client.Connected)
-            {
-                // Debug.Log("Coeffs: " + coefficients.ToString());
-                Debug.Log("Coeffs lenght: " + coefficients.blendShapeCoefficients.Count.ToString());
-                var data = Utils.ObjectSerializationExtension.SerializeToByteArray(coefficients);
-                // Debug.Log("Data: " + BitConverter.ToString(data));
-                client.Send(data);
-            }            
+            server.Stop();
         }
 
         void Update()
         {
-            
+            // Server
+            if (server.Active)
+            {
+                // show all new messages
+                Telepathy.Message msg;
+                while (server.GetNextMessage(out msg))
+                {
+                    switch (msg.eventType)
+                    {
+                        case Telepathy.EventType.Connected:
+                            connectionId = msg.connectionId;
+                            Debug.Log(msg.connectionId + " Connected");
+                            outputTMP.text = "Connected: " + msg.connectionId;
+                            break;
+                        case Telepathy.EventType.Data:
+                            string output = " Data: " + BitConverter.ToString(msg.data);
+                            Debug.Log(msg.connectionId + output);
+                            outputTMP.text = output;                            
+                            break;
+                        case Telepathy.EventType.Disconnected:
+                            Debug.Log(msg.connectionId + " Disconnected");
+                            outputTMP.text = "Disconnected: " + msg.connectionId;
+                            break;
+                    }
+                }
+            }
+        }
+
+        void SendData(FaceBlendShapeCoefficients coefficients)
+        {
+            if (server.Active)
+            {
+                if (updateCount % 2 == 0)
+                {
+                    var data = Utils.ObjectSerializationExtension.SerializeToByteArray(coefficients);
+                    // Debug.Log("Data: " + BitConverter.ToString(data));
+                    server.Send(connectionId, data);
+                }
+                updateCount++;
+            }            
         }
     }
 }
