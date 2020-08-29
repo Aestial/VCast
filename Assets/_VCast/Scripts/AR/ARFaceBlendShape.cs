@@ -162,7 +162,7 @@ namespace VCast.XR.ARFoundation
                 (m_Face.trackingState == TrackingState.Tracking) &&
                 (ARSession.state > ARSessionState.Ready);
                 
-            SetVisible(visible);
+            // SetVisible(visible);
         }
 
         void OnEnable()
