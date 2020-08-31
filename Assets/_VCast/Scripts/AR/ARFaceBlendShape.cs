@@ -220,7 +220,6 @@ namespace VCast.XR.ARFoundation
                         }
                     }                    
                 }
-                Debug.Log(coefficients.blendShapeCoefficients.Count);
             }
         #endif
         }

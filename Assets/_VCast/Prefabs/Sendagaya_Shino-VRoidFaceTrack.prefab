@@ -108,6 +108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3bf3a5c120c4fbd9bf226e96f32ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onUpdatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
   Eye: {fileID: 8080673599502984364}
   target: {fileID: 492530305}
   focalDistance: 0.1
@@ -139,11 +142,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Head
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3042480863486316077}
     - target: {fileID: 2033002456425923058, guid: 350235c33fddc4999962053d5b416975,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350318290869855557, guid: 350235c33fddc4999962053d5b416975,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4390761102230523787, guid: 350235c33fddc4999962053d5b416975,
         type: 3}
@@ -217,6 +225,12 @@ Transform:
 --- !u!137 &930323890333971514 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2033002456425923058, guid: 350235c33fddc4999962053d5b416975,
+    type: 3}
+  m_PrefabInstance: {fileID: 1215831506768491976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3042480863486316077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4244238481832770533, guid: 350235c33fddc4999962053d5b416975,
     type: 3}
   m_PrefabInstance: {fileID: 1215831506768491976}
   m_PrefabAsset: {fileID: 0}

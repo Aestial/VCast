@@ -203,7 +203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182973628}
   m_LocalRotation: {x: 0, y: 0.9976724, z: -0.06818943, w: 0}
-  m_LocalPosition: {x: 0, y: 1.32, z: 1}
+  m_LocalPosition: {x: 0, y: 1.46, z: 0.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -269,6 +269,36 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &633058671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633058672}
+  m_Layer: 0
+  m_Name: EyesTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633058672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633058671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4396030388956430886}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +883,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4396030388956430888}
+        m_TargetAssemblyTypeName: VCast.SyncEyesTargetPosition, Assembly-CSharp
+        m_MethodName: Disconnect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1582057323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,6 +981,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1657505182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5195011089708563137, guid: f23abc5990e7d40e1bdc91d173f8297f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4396030387603837131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1858995926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +1153,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4396030388956430887}
         m_TargetAssemblyTypeName: VCast.SyncBlendShape, Assembly-CSharp
+        m_MethodName: Connect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4396030388956430888}
+        m_TargetAssemblyTypeName: VCast.SyncEyesTargetPosition, Assembly-CSharp
         m_MethodName: Connect
         m_Mode: 1
         m_Arguments:
@@ -1370,6 +1430,36 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[13]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[18]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496048402014317361, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3544644604399675116, guid: f23abc5990e7d40e1bdc91d173f8297f,
         type: 3}
       propertyPath: m_AABB.m_Center.x
@@ -1405,6 +1495,16 @@ PrefabInstance:
       propertyPath: m_DirtyAABB
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3576608846529038417, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 633058672}
+    - target: {fileID: 3576608846529038417, guid: f23abc5990e7d40e1bdc91d173f8297f,
+        type: 3}
+      propertyPath: Head
+      value: 
+      objectReference: {fileID: 4396030387603837134}
     - target: {fileID: 6328118960957100699, guid: f23abc5990e7d40e1bdc91d173f8297f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1474,7 +1574,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8f60e5b83e5d44c9487831c23a9c9f58, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f23abc5990e7d40e1bdc91d173f8297f, type: 3}
 --- !u!4 &4396030387603837132 stripped
@@ -1489,6 +1589,12 @@ SkinnedMeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 4396030387603837131}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &4396030387603837134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6615158235547888756, guid: f23abc5990e7d40e1bdc91d173f8297f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4396030387603837131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4396030388956430885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,6 +1605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396030388956430886}
   - component: {fileID: 4396030388956430887}
+  - component: {fileID: 4396030388956430888}
   m_Layer: 0
   m_Name: Darkness_Shibu-VRoidFaceTrack
   m_TagString: Untagged
@@ -1518,6 +1625,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4396030387603837132}
+  - {fileID: 633058672}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1528,7 +1636,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4396030388956430885}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b97c5487284cf4302bbd5a5f531a97d9, type: 3}
   m_Name: 
@@ -1537,3 +1645,22 @@ MonoBehaviour:
   m_SkinnedMeshRenderer: {fileID: 4396030387603837133}
   ip: 192.168.15.10
   port: 1337
+--- !u!114 &4396030388956430888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396030388956430885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d4f057660ee442fbf4697c63bbae0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 633058672}
+  focalDistance: 0.25
+  targetDistance: 10
+  mirror: 1
+  Eye: {fileID: 1657505182}
+  ip: 192.168.15.10
+  port: 8080
