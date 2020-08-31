@@ -91,6 +91,9 @@ namespace VCast
             }
             // target.localPosition = new Vector3(targetPosition.position.x,targetPosition.position.y, targetPosition.position.z);
             Vector3 eyeForward = new Vector3(targetPosition.eyeForward.x, targetPosition.eyeForward.y, targetPosition.eyeForward.z);
+            Debug.Log(eyeForward);
+            // TODO: CHECK actual local coords for eye Forward vector. Do it absolute (substract face vector)
+            // Vector3 eyePosition = new Vector3(0.0f, Eye.position.y, Eye.position.z);
             target.position = Eye.position + eyeForward * targetDistance;
             float x  = target.localPosition.x * (mirror ? -1.0f : 1.0f);
             float y  = -target.localPosition.y;
