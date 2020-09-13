@@ -10,7 +10,7 @@ public class BasicServer : MonoBehaviour
     [SerializeField] int connectionId = 0;
     [SerializeField] int port = 1337;
 
-    [SerializeField] TMP_Text outputTMP;
+    [SerializeField] TMP_Text outputTMP = default;
 
     Server server = new Server();
 

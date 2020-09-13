@@ -9,7 +9,7 @@ namespace VCast
 {
     using XR.ARFoundation;
 
-    public class SyncFaceBlendShape : MonoBehaviour
+    public class SyncFaceBlendShape : AbstractSync
     {
         [SerializeField] string m_StrPrefix = "Face.M_F00_000_00_Fcl_";
         public string strPrefix
@@ -23,32 +23,13 @@ namespace VCast
             get { return m_SkinnedMeshRenderer; }
             set { m_SkinnedMeshRenderer = value; }
         }
-        [SerializeField] string ip = "192.168.0.101";
-        [SerializeField] int port = 1337;
-        Client client;
-
+        
         Dictionary<string, int> m_FaceBlendShapeIndexMap;
 
-        public void Connect()
+        public override void Awake()
         {
-            client.Connect(ip, port);
-        }
-
-        public void Disconnect()
-        {
-            client.Disconnect();
-        }
-
-        void Awake()
-        {
-            // update even if window isn't focused, otherwise we don't receive.
-            Application.runInBackground = true;
-            client = new Client();
-            // use Debug.Log functions for Telepathy so we can see it in the console
-            Telepathy.Logger.Log = Debug.Log;
-            Telepathy.Logger.LogWarning = Debug.LogWarning;
-            Telepathy.Logger.LogError = Debug.LogError;
-
+            base.Awake();
+            onMessageReceived = OnMessageReceivedDelegate;
             CreateFeatureBlendMapping();
         }
         
@@ -102,40 +83,11 @@ namespace VCast
             // m_FaceBlendShapeIndexMap["MouthUpperUpRight"   ]   = skinnedMeshRenderer.sharedMesh.GetBlendShapeIndex(strPrefix + "MTH_E");
         }
 
-        void Update()
+        void OnMessageReceivedDelegate(Telepathy.Message msg)
         {
-            // client
-            if (client.Connected)
-            {
-                // show all new messages
-                Telepathy.Message msg;
-                while (client.GetNextMessage(out msg))
-                {
-                    switch (msg.eventType)
-                    {
-                        case Telepathy.EventType.Connected:
-                            Debug.Log("Connected");
-                            break;
-                        case Telepathy.EventType.Data:
-                            var data = msg.data;
-                            var coeffs = Utils.ObjectSerializationExtension.Deserialize<FaceBlendShapeCoefficients>(data);
-                            // Debug.Log("Coeffs: " + coeffs.ToString());
-                            UpdateFaceFeatures(coeffs);
-                            break;
-                        case Telepathy.EventType.Disconnected:
-                            Debug.Log("Disconnected");
-                            break;
-                    }
-                }
-            }
-        }
-
-        void OnApplicationQuit()
-        {
-            // the client/server threads won't receive the OnQuit info if we are
-            // running them in the Editor. they would only quit when we press Play
-            // again later. this is fine, but let's shut them down here for consistency
-            client.Disconnect();            
+            var data = msg.data;
+            var coeffs = Utils.ObjectSerializationExtension.Deserialize<FaceBlendShapeCoefficients>(data);
+            UpdateFaceFeatures(coeffs);
         }
 
         void UpdateFaceFeatures(FaceBlendShapeCoefficients face)
