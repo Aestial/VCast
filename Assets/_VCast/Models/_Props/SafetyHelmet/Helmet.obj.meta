@@ -1,9 +1,54 @@
 fileFormatVersion: 2
-guid: b98459230f1dcad4286a0b5e5bff32c2
+guid: 0e4f208db6a6a48d6bc7db78387e2b35
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Line009_meshId6_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Line010_meshId8_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Plane005_meshId1_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Plane006_meshId2_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Plane008_meshId3_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Plane009_meshId5_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Rectangle009_meshId0_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_Rectangle013_meshId4_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: g_default_meshId7_nameMat
+    second: {fileID: 2100000, guid: c68ced4fea5b00645a54bf92e602ebdd, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -63,7 +108,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
