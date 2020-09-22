@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class ToggleAnimatorBoolean : MonoBehaviour
 {
-    [SerializeField] string booleanName;
+    [SerializeField] string booleanName = default;
     Animator animator;
 
     public void SetAnimBool (bool value)
