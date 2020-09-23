@@ -63,7 +63,7 @@ Material:
     m_Floats:
     - _AlphaToMask: 0
     - _BlendMode: 0
-    - _BumpScale: 1.6
+    - _BumpScale: 0.8
     - _CullMode: 2
     - _Cutoff: 0.5
     - _DebugMode: 0
@@ -82,7 +82,7 @@ Material:
     - _RimLift: 0.12
     - _RimLightingMix: 1
     - _ShadeShift: 0
-    - _ShadeToony: 0.888
+    - _ShadeToony: 0.6
     - _ShadingGradeRate: 1
     - _SrcBlend: 1
     - _UvAnimRotation: 0
@@ -94,5 +94,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0.4528302, g: 0.11747954, b: 0.11747954, a: 1}
     - _RimColor: {r: 0.076762185, g: 0.13639536, b: 0.14150941, a: 1}
-    - _ShadeColor: {r: 0.96999997, g: 0.81, b: 0.86, a: 1}
+    - _ShadeColor: {r: 0.754717, g: 0.74759704, b: 0.749377, a: 1}
   m_BuildTextureStacks: []
