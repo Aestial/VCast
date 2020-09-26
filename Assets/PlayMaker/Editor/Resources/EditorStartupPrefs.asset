@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.0 '
   playmakerVersion: 
-  showWelcomeScreen: 1
-  showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2020.1.6f1__/home/doritos/Repos/VCast/Assets__0.0.0.0
+  showWelcomeScreen: 0
+  showUpgradeGuide: 1
+  lastAutoUpdateSignature: 2020.1.6f1__/Users/jaimito/Github/VCast/Assets__0.0.0.0
   useLegacyNetworking: 0
