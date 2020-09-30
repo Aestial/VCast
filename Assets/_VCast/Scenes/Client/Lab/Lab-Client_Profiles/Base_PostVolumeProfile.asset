@@ -18,16 +18,16 @@ MonoBehaviour:
     value: 1
   focusDistance:
     overrideState: 1
-    value: 0.45
+    value: 0.65
   aperture:
     overrideState: 1
-    value: 20
+    value: 15
   focalLength:
     overrideState: 1
-    value: 57
+    value: 60
   kernelSize:
     overrideState: 1
-    value: 2
+    value: 3
 --- !u!114 &-5249769494742612697
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -49,21 +49,21 @@ MonoBehaviour:
     value: 0
   color:
     overrideState: 1
-    value: {r: 0.4759256, g: 0.6446927, b: 0.6509434, a: 1}
+    value: {r: 0.2267711, g: 0.4788419, b: 0.49056602, a: 1}
   center:
     overrideState: 1
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.52
+    value: 0.5
   smoothness:
     overrideState: 1
     value: 0.5
   roundness:
     overrideState: 1
-    value: 0.938
+    value: 0.7
   rounded:
-    overrideState: 1
+    overrideState: 0
     value: 0
   mask:
     overrideState: 1
@@ -125,7 +125,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: -5
+    value: -6
   tint:
     overrideState: 0
     value: 0
@@ -133,17 +133,17 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    overrideState: 0
+    overrideState: 1
     value: 0
   saturation:
     overrideState: 1
-    value: 5
+    value: 15
   brightness:
     overrideState: 0
     value: 0
   postExposure:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.25
   contrast:
     overrideState: 0
     value: 0
@@ -1418,13 +1418,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2.4
+    value: 3
   threshold:
     overrideState: 1
     value: 1
   softKnee:
     overrideState: 1
-    value: 0.65
+    value: 0.85
   clamp:
     overrideState: 0
     value: 65472
@@ -1438,8 +1438,8 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   fastMode:
-    overrideState: 1
-    value: 1
+    overrideState: 0
+    value: 0
   dirtTexture:
     overrideState: 0
     value: {fileID: 0}
