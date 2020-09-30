@@ -46,11 +46,15 @@ namespace VCast
             Debug.Log(eyeForward);
             // TODO: CHECK actual local coords for eye Forward vector. Do it absolute (substract face vector)
             // Vector3 eyePosition = new Vector3(0.0f, Eye.position.y, Eye.position.z);
-            target.position = Eye.position + eyeForward * targetDistance;
-            float x  = target.localPosition.x * (mirror ? -1.0f : 1.0f);
-            float y  = -target.localPosition.y;
-            float z  = target.localPosition.z * focalDistance;
-            target.localPosition = new Vector3(x, y, z);
+            // target.position = Eye.position + eyeForward * targetDistance;
+            // float x  = target.position.x * (mirror ? -1.0f : 1.0f);
+            // float y  = target.position.y;
+            // float z  = target.position.z * focalDistance;
+            float x  = targetPosition.position.x * (mirror ? -1.0f : 1.0f);
+            Vector3 position = new Vector3(x, targetPosition.position.y, targetPosition.position.z); 
+            
+            Debug.Log(position);
+            target.position = position;
         }
     }
 }
