@@ -20,20 +20,20 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _HorizonLineContribution: 0.75
+    - _HorizonLineContribution: 0.38
     - _HorizonLineExponent: 6
     - _SkyGradientExponent: 1
     - _SunDiscContribution: 1
     - _SunDiscExponent: 250000
-    - _SunDiscMultiplier: 200
+    - _SunDiscMultiplier: 167.06
     - _SunHaloContribution: 0.5
     - _SunHaloExponent: 50
     - _Title: 0
     - __dirty: 0
     m_Colors:
-    - _HorizonLineColor: {r: 0.93703103, g: 0.38679248, b: 1, a: 1}
+    - _HorizonLineColor: {r: 0.57846844, g: 0.27839088, b: 0.8679245, a: 1}
     - _SkyGradientBottom: {r: 0.0980392, g: 0.40238485, b: 0.67058825, a: 1}
     - _SkyGradientTop: {r: 0.10946958, g: 0.2693568, b: 0.38679248, a: 1}
-    - _SunDiscColor: {r: 1, g: 0.56997967, b: 0.41176468, a: 1}
+    - _SunDiscColor: {r: 1, g: 0.86855346, b: 0.8207547, a: 1}
     - _SunHaloColor: {r: 0.73758006, g: 0.16862744, b: 1, a: 1}
   m_BuildTextureStacks: []
