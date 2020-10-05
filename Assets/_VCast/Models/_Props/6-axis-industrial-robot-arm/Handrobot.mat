@@ -106,7 +106,7 @@ Material:
     - _OutlineCullMode: 1
     - _OutlineLightingMix: 1
     - _OutlineScaledMaxDistance: 1
-    - _OutlineWidth: 0.37
+    - _OutlineWidth: 0.45
     - _OutlineWidthMode: 2
     - _Parallax: 0.02
     - _ReceiveShadowRate: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0308cbe3a47d7e07aa56a095ae4e22a6
+guid: 8946445e7becd94d58f203c89af285d1
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Pancake
-    second: {fileID: 2100000, guid: 13b66d47bdb72d13f82247ccb5682298, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 4a4710c673660c72794304aa68202d4a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -39,7 +39,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.008
+    globalScale: 0.018
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -90,7 +90,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.008
+    globalScale: 0.018
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
