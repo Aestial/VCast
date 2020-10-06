@@ -59,8 +59,7 @@ public abstract class AbstractSync : MonoBehaviour
                         Debug.Log("Connected");
                         break;
                     case Telepathy.EventType.Data:
-                        Debug.Log("Message");
-                        // CALL Delegate(msg); 
+                        // Debug.Log("Message");
                         onMessageReceived(msg);
                         break;
                     case Telepathy.EventType.Disconnected:

@@ -90,7 +90,7 @@ namespace VCast.XR.ARFoundation
             float y  = -target.localPosition.y;
             float z  = target.localPosition.z * focalDistance;
             target.localPosition = new Vector3(x, y, z);
-            eyesTarget.position.Set(x, y, z);
+            eyesTarget.position.Set(target.position.x, target.position.y, target.position.z);
             onUpdatedEvent.Invoke(eyesTarget);
             // Debug.LogFormat("Eye target local position: {0}", target.localPosition);
             // Debug.LogFormat("Eye target position: {0}", target.position);            
