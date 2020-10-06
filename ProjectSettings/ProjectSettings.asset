@@ -77,7 +77,7 @@ PlayerSettings:
   runInBackground: 1
   captureSingleScreen: 0
   muteOtherAudioSources: 1
-  Prepare IOS For Recording: 1
+  Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
   deferSystemGesturesMode: 0
   hideHomeButton: 1
@@ -102,7 +102,7 @@ PlayerSettings:
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
-  metalFramebufferOnly: 1
+  metalFramebufferOnly: 0
   xboxOneResolution: 0
   xboxOneSResolution: 0
   xboxOneXResolution: 3
@@ -129,9 +129,8 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1.7
-  preloadedAssets:
-  - {fileID: 4514815501386921996, guid: d7b6894f12fc54014a93a453ed044158, type: 2}
+  bundleVersion: 0.1.9
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -177,7 +176,7 @@ PlayerSettings:
     Android: com.robota.vcast.studio
     iPhone: com.robota.vcast.studio
   buildNumber:
-    iPhone: 017
+    iPhone: 019
   AndroidBundleVersionCode: 17
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
@@ -236,10 +235,10 @@ PlayerSettings:
   iOSDeviceRequirements: []
   iOSURLSchemes: []
   iOSBackgroundModes: 0
-  iOSMetalForceHardShadows: 1
+  iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
   metalAPIValidation: 1
-  iOSRenderExtraFrameOnPause: 1
+  iOSRenderExtraFrameOnPause: 0
   appleDeveloperTeamID: GJQLLJVQR9
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
@@ -504,7 +503,7 @@ PlayerSettings:
   - m_BuildTarget: PS4Player
     m_GraphicsJobs: 1
   - m_BuildTarget: iOSSupport
-    m_GraphicsJobs: 1
+    m_GraphicsJobs: 0
   - m_BuildTarget: WindowsStandaloneSupport
     m_GraphicsJobs: 1
   - m_BuildTarget: XboxOnePlayer
@@ -548,7 +547,7 @@ PlayerSettings:
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
-    iPhone: 1
+    iPhone: 0
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
@@ -896,5 +895,5 @@ PlayerSettings:
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
-  legacyClampBlendShapeWeights: 0
+  legacyClampBlendShapeWeights: 1
   virtualTexturingSupportEnabled: 0
