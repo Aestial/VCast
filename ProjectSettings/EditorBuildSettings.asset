@@ -8,8 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_VCast/Scenes/Server/Sync/SyncServer.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/_VCast/Scenes/Client/Lab/Lab-Client.unity
+  - enabled: 1
+    path: Assets/_VCast/Scenes/Client/FujiSmallRoom/FujiSmallRoom.unity
     guid: 6d38410c72a3548d49d08bf8546cddc6
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ec5fdcc3e17c24efcb00b4edc777fdab,
