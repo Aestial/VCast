@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ExporterVersion: VRoidStudio-0.11.1
   Title: Dorita Corona
-  Version: 2.0
-  Author: Jaime Hernandez
+  Version: 2.2
+  Author: "Jaime Hern\xE1ndez"
   ContactInformation: jaimevazz@gmail.com
-  Reference: 'Sakbe Corona '
+  Reference: Sakbe Corona
   Thumbnail: {fileID: 2800000, guid: c19a4dceafeea16be859cb1b0e644397, type: 3}
-  AllowedUser: 1
+  AllowedUser: 0
   ViolentUssage: 1
   SexualUssage: 0
   CommercialUssage: 0
   OtherPermissionUrl: https://frontera.digital/products/vcast-studio/privacy
   LicenseType: 0
-  OtherLicenseUrl: 
+  OtherLicenseUrl: https://frontera.digital/products/vcast-studio/privacy
