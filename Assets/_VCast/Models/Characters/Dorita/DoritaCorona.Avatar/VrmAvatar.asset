@@ -7,7 +7,7 @@ Avatar:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VrmAvatar
-  m_AvatarSize: 23356
+  m_AvatarSize: 22544
   m_Avatar:
     serializedVersion: 3
     m_AvatarSkeleton:
@@ -65,33 +65,33 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 24
           m_AxesId: -1
-        - m_ParentId: 25
+        - m_ParentId: 21
+          m_AxesId: -1
+        - m_ParentId: 26
           m_AxesId: -1
         - m_ParentId: 21
           m_AxesId: -1
-        - m_ParentId: 27
+        - m_ParentId: 28
           m_AxesId: -1
         - m_ParentId: 21
           m_AxesId: -1
-        - m_ParentId: 29
+        - m_ParentId: 30
           m_AxesId: -1
         - m_ParentId: 21
           m_AxesId: -1
-        - m_ParentId: 31
+        - m_ParentId: 32
           m_AxesId: -1
         - m_ParentId: 21
-          m_AxesId: -1
-        - m_ParentId: 33
           m_AxesId: -1
         - m_ParentId: 34
           m_AxesId: -1
-        - m_ParentId: 21
+        - m_ParentId: 35
           m_AxesId: -1
         - m_ParentId: 36
           m_AxesId: -1
-        - m_ParentId: 37
-          m_AxesId: -1
         - m_ParentId: 21
+          m_AxesId: -1
+        - m_ParentId: 38
           m_AxesId: -1
         - m_ParentId: 39
           m_AxesId: -1
@@ -101,7 +101,7 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 42
           m_AxesId: -1
-        - m_ParentId: 21
+        - m_ParentId: 43
           m_AxesId: -1
         - m_ParentId: 44
           m_AxesId: -1
@@ -111,25 +111,25 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 47
           m_AxesId: -1
-        - m_ParentId: 21
+        - m_ParentId: 48
           m_AxesId: -1
-        - m_ParentId: 49
+        - m_ParentId: 7
           m_AxesId: -1
-        - m_ParentId: 21
+        - m_ParentId: 50
           m_AxesId: -1
         - m_ParentId: 51
           m_AxesId: -1
         - m_ParentId: 52
           m_AxesId: -1
-        - m_ParentId: 21
+        - m_ParentId: 53
           m_AxesId: -1
         - m_ParentId: 54
           m_AxesId: -1
         - m_ParentId: 55
           m_AxesId: -1
-        - m_ParentId: 7
+        - m_ParentId: 56
           m_AxesId: -1
-        - m_ParentId: 57
+        - m_ParentId: 53
           m_AxesId: -1
         - m_ParentId: 58
           m_AxesId: -1
@@ -137,37 +137,37 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 60
           m_AxesId: -1
-        - m_ParentId: 61
+        - m_ParentId: 53
           m_AxesId: -1
         - m_ParentId: 62
           m_AxesId: -1
         - m_ParentId: 63
           m_AxesId: -1
-        - m_ParentId: 60
+        - m_ParentId: 64
           m_AxesId: -1
-        - m_ParentId: 65
+        - m_ParentId: 53
           m_AxesId: -1
         - m_ParentId: 66
           m_AxesId: -1
         - m_ParentId: 67
           m_AxesId: -1
-        - m_ParentId: 60
+        - m_ParentId: 68
           m_AxesId: -1
-        - m_ParentId: 69
+        - m_ParentId: 53
           m_AxesId: -1
         - m_ParentId: 70
           m_AxesId: -1
         - m_ParentId: 71
           m_AxesId: -1
-        - m_ParentId: 60
+        - m_ParentId: 72
           m_AxesId: -1
-        - m_ParentId: 73
+        - m_ParentId: 7
           m_AxesId: -1
         - m_ParentId: 74
           m_AxesId: -1
         - m_ParentId: 75
           m_AxesId: -1
-        - m_ParentId: 60
+        - m_ParentId: 76
           m_AxesId: -1
         - m_ParentId: 77
           m_AxesId: -1
@@ -175,9 +175,9 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 79
           m_AxesId: -1
-        - m_ParentId: 7
+        - m_ParentId: 80
           m_AxesId: -1
-        - m_ParentId: 81
+        - m_ParentId: 77
           m_AxesId: -1
         - m_ParentId: 82
           m_AxesId: -1
@@ -185,71 +185,57 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 84
           m_AxesId: -1
-        - m_ParentId: 85
+        - m_ParentId: 77
           m_AxesId: -1
         - m_ParentId: 86
           m_AxesId: -1
         - m_ParentId: 87
           m_AxesId: -1
-        - m_ParentId: 84
+        - m_ParentId: 88
           m_AxesId: -1
-        - m_ParentId: 89
+        - m_ParentId: 77
           m_AxesId: -1
         - m_ParentId: 90
           m_AxesId: -1
         - m_ParentId: 91
           m_AxesId: -1
-        - m_ParentId: 84
+        - m_ParentId: 92
           m_AxesId: -1
-        - m_ParentId: 93
+        - m_ParentId: 77
           m_AxesId: -1
         - m_ParentId: 94
           m_AxesId: -1
         - m_ParentId: 95
           m_AxesId: -1
-        - m_ParentId: 84
+        - m_ParentId: 96
           m_AxesId: -1
-        - m_ParentId: 97
+        - m_ParentId: 4
           m_AxesId: -1
         - m_ParentId: 98
           m_AxesId: -1
         - m_ParentId: 99
           m_AxesId: -1
-        - m_ParentId: 84
+        - m_ParentId: 100
           m_AxesId: -1
         - m_ParentId: 101
           m_AxesId: -1
-        - m_ParentId: 102
+        - m_ParentId: 4
           m_AxesId: -1
         - m_ParentId: 103
           m_AxesId: -1
-        - m_ParentId: 4
+        - m_ParentId: 104
           m_AxesId: -1
         - m_ParentId: 105
           m_AxesId: -1
         - m_ParentId: 106
           m_AxesId: -1
-        - m_ParentId: 107
+        - m_ParentId: 0
           m_AxesId: -1
         - m_ParentId: 108
           m_AxesId: -1
-        - m_ParentId: 4
-          m_AxesId: -1
-        - m_ParentId: 110
-          m_AxesId: -1
-        - m_ParentId: 111
-          m_AxesId: -1
-        - m_ParentId: 112
-          m_AxesId: -1
-        - m_ParentId: 113
-          m_AxesId: -1
         - m_ParentId: 0
           m_AxesId: -1
-        - m_ParentId: 115
-          m_AxesId: -1
-        - m_ParentId: 0
-          m_AxesId: -1
-        m_ID: 0000000059d426a58ca49a7b6556c6b6a4345e7f9d79f969db3d7eb5e688f1121c3920d4976082028fdec1e3589948ad69c026007cf568a4c66bc28526b9d0405fc07a4eacc123cb0df3300dce7023d5c7106328fe0c1055b40418bb579d1adf378061a2ca400ddda619e6d5649551eb9f0dc6b20ebad0914e255f4d90c1965601e950b8d2ff03bbaacfbdb527659026a89fba3d073048c98d3de508c8a82e8536fb93593254f1a4e286c97c83e27c2f7d9a6ae65b9dd8d7c4d99e13f6263f9c7851cfccc5aae7b1f6c8ffe1ccb0cb848d6744067196824e42cf91a0cc3d2a8bff19e82ed76942ea55502f50faf039b9f6e26f98025ca234419105ab4cad98020e068e6b5c07666f1bd19bbfe311f98ec0c37de9f5cce8f9af4944191fbcd2e594ffcd62340ea97915c405ae16bb49f51c86038c7e2331522dbc0c5cc73bdeae2ef9b7438cd825d316c1e74947b92119658b2b514313b9d45b4b42bd074d501d1fd9ef49156d5d6ef52ed53497cf177eecf920f8bca6d3f841b60a926b623c15b8c590733e510fb7d70d3d011b30de0bb560a56e3f6c2ab237664b4a8cdb16b13f26d6610c3a692bf966b2ffe417ce8f61c53f1da9379563578b0e12baf77ae60e20fe811260a4ee273fbd3faebf38be421ffb201574531b
+        m_ID: 0000000059d426a58ca49a7b6556c6b6a4345e7f9d79f969db3d7eb5e688f1121c3920d4976082028fdec1e3589948ad69c026007cf568a4c66bc28526b9d0405fc07a4eacc123cb0df3300dce7023d5c7106328fe0c1055b40418bb579d1adf4bc6647548c024512258b9f4afc0047d2570a0e7e72bbb233941027638ecaad31e8e471d4b574033b3cf605b808005dcf068d3334dc7b379084e3426d93c145c2d18357a6dd5d6378f3c3682f24efa73251fa8cfd12db11657e09fc03d4c6e2417b4ee5a9e19d5a6d76942ea55502f50faf039b9f6e26f98025ca234419105ab4cad98020e068e6b5c07666f1bd19bbfe311f98ec0c37de9f5cce8f9af4944191fbcd2e594ffcd62340ea97915c405ae16bb49f51c86038c7e2331522dbc0c5cc73bdeae2ef9b7438cd825d316c1e74947b92119658b2b514313b9d45b4b42bd074d501d1fd9ef49156d5d6ef52ed53497cf177eecf920f8bca6d3f841b60a926b623c15b8c590733e510fb7d70d3d011b30de0bb560a56e3f6c2ab237664b4a8cdb16b13f26d6610c3a692bf966b2ffe417ce8f61c53f1da9379563578b0e12baf77ae60e20fe811260a4ee273fbd3faebf38be421ffb201574531b
         m_AxesArray: []
     m_AvatarSkeletonPose:
       data:
@@ -281,13 +267,13 @@ Avatar:
         - t: {x: -0.05424888, y: -0.027212262, z: 0.05907061}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.037794452, y: 0.0035501719, z: 0.06570919}
+        - t: {x: -0.032060545, y: 0.005343318, z: 0.06025905}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0.05424888, y: -0.027212381, z: 0.059070602}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.037794467, y: 0.003550291, z: 0.06570921}
+        - t: {x: 0.03206056, y: 0.005343437, z: 0.06025906}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0.000000002590241, y: 0.11984193, z: -0.10120708}
@@ -326,103 +312,82 @@ Avatar:
         - t: {x: 0.019336952, y: 0.059338927, z: 0.028601974}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.10217835, y: -0.0037617683, z: -0.044443414}
+        - t: {x: 0.0015025876, y: 0.1456244, z: 0.10591998}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.020188354, y: -0.10500646, z: -0.016655557}
+        - t: {x: 0.0061759115, y: 0.028692484, z: -0.023932457}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.015471257, y: -0.10609901, z: -0.015122913}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.09614754, y: 0.06977129, z: -0.025388546}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.010143921, y: -0.08644223, z: 0.022119217}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.07891649, y: -0.009096026, z: 0.027753107}
+        - t: {x: 0.08800436, y: 0.03666377, z: 0.030593298}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0, y: 0, z: 0}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.07900565, y: -0.009179831, z: 0.027433768}
+        - t: {x: -0.08809689, y: 0.0365901, z: 0.030214548}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0, y: 0, z: 0}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.0074271164, y: -0.01765275, z: -0.11215436}
+        - t: {x: 0.10179005, y: -0.120218396, z: -0.093342714}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.0040453626, y: -0.10033429, z: -0.002053246}
+        - t: {x: 0.0011918321, y: -0.00051891804, z: 0.0007906407}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.004677154, y: -0.100384235, z: 0.0025573522}
+        - t: {x: -0.10559472, y: -0.12022424, z: -0.093339615}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.08048506, y: 0.062011957, z: 0.035394475}
+        - t: {x: -0.0012557283, y: -0.0005283356, z: 0.00079524517}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.04476005, y: -0.11267257, z: 0.0078233965}
+        - t: {x: 0.08509512, y: 0.074281216, z: 0.000014938414}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.041751564, y: -0.11425495, z: -0.0014138743}
+        - t: {x: 0.024132155, y: -0.07452381, z: -0.020248473}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.08937008, y: 0.040455222, z: 0.038193457}
+        - t: {x: 0.010363989, y: -0.07485688, z: -0.029660292}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.044114105, y: -0.10070217, z: -0.00045884028}
+        - t: {x: 0.009457603, y: -0.07477057, z: -0.030227058}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.043413922, y: -0.10087013, z: -0.007150147}
+        - t: {x: -0.062204167, y: -0.028301, z: -0.08663952}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.108985424, y: -0.12755561, z: -0.083149634}
+        - t: {x: -0.014901973, y: -0.06441283, z: 0.00012999028}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.0012185052, y: -0.0005737543, z: 0.00070668757}
+        - t: {x: -0.014422126, y: -0.06440699, z: 0.0042825043}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.108992174, y: -0.12756205, z: -0.08314697}
+        - t: {x: -0.014561862, y: -0.06443536, z: 0.0031264275}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.001229316, y: -0.0005841255, z: 0.0007107407}
+        - t: {x: -0.09464567, y: 0.043883324, z: 0.027548552}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.08013847, y: -0.012952328, z: -0.070600785}
+        - t: {x: -0.009025753, y: -0.06904054, z: 0.02074856}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.018404193, y: -0.104741216, z: -0.009844556}
+        - t: {x: -0.0017853752, y: -0.06901002, z: 0.022891898}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.015531711, y: -0.105562925, z: -0.0059401393}
+        - t: {x: -0.0023186728, y: -0.06904006, z: 0.022743486}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.09854622, y: 0.020126104, z: -0.034121163}
+        - t: {x: 0.057572357, y: 0.019174576, z: -0.08567992}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.0029968247, y: -0.05740094, z: 0.0015928894}
+        - t: {x: 0.017678462, y: -0.07995808, z: -0.002731569}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.04931213, y: 0.02788663, z: -0.079038665}
+        - t: {x: 0.015488699, y: -0.08038056, z: 0.0041325763}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.016702503, y: -0.12554741, z: -0.009880997}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.008022651, y: -0.12653041, z: -0.00929077}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.07907695, y: -0.011296034, z: -0.09121456}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.00836806, y: -0.06251645, z: -0.0014215261}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.00806734, y: -0.062573195, z: -0.00083093345}
+        - t: {x: 0.015172437, y: -0.08039248, z: 0.0050928667}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: -0.022385634, y: 0.08726406, z: -0.02744285}
@@ -638,13 +603,13 @@ Avatar:
         - t: {x: -0.05424888, y: -0.027212262, z: 0.05907061}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.037794452, y: 0.0035501719, z: 0.06570919}
+        - t: {x: -0.032060545, y: 0.005343318, z: 0.06025905}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0.05424888, y: -0.027212381, z: 0.059070602}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.037794467, y: 0.003550291, z: 0.06570921}
+        - t: {x: 0.03206056, y: 0.005343437, z: 0.06025906}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0.000000002590241, y: 0.11984193, z: -0.10120708}
@@ -683,103 +648,82 @@ Avatar:
         - t: {x: 0.019336952, y: 0.059338927, z: 0.028601974}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.10217835, y: -0.0037617683, z: -0.044443414}
+        - t: {x: 0.0015025876, y: 0.1456244, z: 0.10591998}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.020188354, y: -0.10500646, z: -0.016655557}
+        - t: {x: 0.0061759115, y: 0.028692484, z: -0.023932457}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.015471257, y: -0.10609901, z: -0.015122913}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.09614754, y: 0.06977129, z: -0.025388546}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.010143921, y: -0.08644223, z: 0.022119217}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.07891649, y: -0.009096026, z: 0.027753107}
+        - t: {x: 0.08800436, y: 0.03666377, z: 0.030593298}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0, y: 0, z: 0}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.07900565, y: -0.009179831, z: 0.027433768}
+        - t: {x: -0.08809689, y: 0.0365901, z: 0.030214548}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: 0, y: 0, z: 0}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.0074271164, y: -0.01765275, z: -0.11215436}
+        - t: {x: 0.10179005, y: -0.120218396, z: -0.093342714}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.0040453626, y: -0.10033429, z: -0.002053246}
+        - t: {x: 0.0011918321, y: -0.00051891804, z: 0.0007906407}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.004677154, y: -0.100384235, z: 0.0025573522}
+        - t: {x: -0.10559472, y: -0.12022424, z: -0.093339615}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.08048506, y: 0.062011957, z: 0.035394475}
+        - t: {x: -0.0012557283, y: -0.0005283356, z: 0.00079524517}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.04476005, y: -0.11267257, z: 0.0078233965}
+        - t: {x: 0.08509512, y: 0.074281216, z: 0.000014938414}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.041751564, y: -0.11425495, z: -0.0014138743}
+        - t: {x: 0.024132155, y: -0.07452381, z: -0.020248473}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.08937008, y: 0.040455222, z: 0.038193457}
+        - t: {x: 0.010363989, y: -0.07485688, z: -0.029660292}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.044114105, y: -0.10070217, z: -0.00045884028}
+        - t: {x: 0.009457603, y: -0.07477057, z: -0.030227058}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.043413922, y: -0.10087013, z: -0.007150147}
+        - t: {x: -0.062204167, y: -0.028301, z: -0.08663952}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.108985424, y: -0.12755561, z: -0.083149634}
+        - t: {x: -0.014901973, y: -0.06441283, z: 0.00012999028}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.0012185052, y: -0.0005737543, z: 0.00070668757}
+        - t: {x: -0.014422126, y: -0.06440699, z: 0.0042825043}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.108992174, y: -0.12756205, z: -0.08314697}
+        - t: {x: -0.014561862, y: -0.06443536, z: 0.0031264275}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.001229316, y: -0.0005841255, z: 0.0007107407}
+        - t: {x: -0.09464567, y: 0.043883324, z: 0.027548552}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.08013847, y: -0.012952328, z: -0.070600785}
+        - t: {x: -0.009025753, y: -0.06904054, z: 0.02074856}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.018404193, y: -0.104741216, z: -0.009844556}
+        - t: {x: -0.0017853752, y: -0.06901002, z: 0.022891898}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.015531711, y: -0.105562925, z: -0.0059401393}
+        - t: {x: -0.0023186728, y: -0.06904006, z: 0.022743486}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: 0.09854622, y: 0.020126104, z: -0.034121163}
+        - t: {x: 0.057572357, y: 0.019174576, z: -0.08567992}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.0029968247, y: -0.05740094, z: 0.0015928894}
+        - t: {x: 0.017678462, y: -0.07995808, z: -0.002731569}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.04931213, y: 0.02788663, z: -0.079038665}
+        - t: {x: 0.015488699, y: -0.08038056, z: 0.0041325763}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.016702503, y: -0.12554741, z: -0.009880997}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.008022651, y: -0.12653041, z: -0.00929077}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.07907695, y: -0.011296034, z: -0.09121456}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.00836806, y: -0.06251645, z: -0.0014215261}
-          q: {x: -0, y: -0, z: -0, w: 1}
-          s: {x: 1, y: 1, z: 1}
-        - t: {x: -0.00806734, y: -0.062573195, z: -0.00083093345}
+        - t: {x: 0.015172437, y: -0.08039248, z: 0.0050928667}
           q: {x: -0, y: -0, z: -0, w: 1}
           s: {x: 1, y: 1, z: 1}
         - t: {x: -0.022385634, y: 0.08726406, z: -0.02744285}
@@ -965,7 +909,7 @@ Avatar:
         - t: {x: 0, y: 0, z: -0}
           q: {x: -0, y: -0, z: 0, w: 1}
           s: {x: 1, y: 1, z: 1}
-    m_SkeletonNameIDArray: 0000000059d426a58ca49a7b6556c6b665a19f95493a2d043167a66d679237d601c8a8b5bb99a12c922f4982287e401bb70e28e30a6cf2a3ad3c262e176d2fb75c034f87c796c7607dc7cef9b7623ad119de6dcbd6fe8f4cede95e8d0e705ce93a1a5cc83bfd635e1fad4ac7690f6c81c5d4be850320edfb033449ee9d5bab3ccbfb193bdf653ed17d7e91fe5f3b0855a5058757f83a9b49711be826c53213eff61f55d2c589d7d8ef1cf416e6f7ff907000578c2273b5d8c943a379c5d56d09f745d942c830dadb04f6da10c12af6eefeb42ec1e380ea674f55acca486535d0886eb8d57b8278105d538d16c2a5eaf910f8483d2b7a3629912b3fb0071b38c78bb5acd2160bc92dac5ac0b43a6ac7c3fbae9711bfc047bb05914e2293a149556102620024439f5a9e1296c3082291b4e45cbc175705a54fed54acd67b64aba17698555220331f2906e2ea2f99148dc0fb9b94043259074088080ed91e3809ae698b8537f592cb494fc3c2d0d9f3c5a79104765f5c5945dfe6084c4670384b310ba8834eb7a47e6d0df577f49bc5708329b33ceb4e269426f4779dbf62479ac894a67cb786ad03fb195b64140c83a5d38490275fd74daef3dd1c64c242ea032de7e079ea6709253bbde74fbdaebf38beed96c7d61574531b
+    m_SkeletonNameIDArray: 0000000059d426a58ca49a7b6556c6b665a19f95493a2d043167a66d679237d601c8a8b5bb99a12c922f4982287e401bb70e28e30a6cf2a3ad3c262e176d2fb75c034f87c796c7607dc7cef9b7623ad119de6dcbd6fe8f4cede95e8d0e705ce9465c591fb46a28582fc2849ea15b320628ea9d8d400e231b34db3f1cd3a12f8f13147a779e57cae1be555d31b4c7bbfa8dced1c59bcd564905d4094cdf3e5696ad5619bc856ff90e82a60be8c4bf87ae421af8499f5b23c05a7aa2aa934351f07403a811c3f123ba7b8278105d538d16c2a5eaf910f8483d2b7a3629912b3fb0071b38c78bb5acd2160bc92dac5ac0b43a6ac7c3fbae9711bfc047bb05914e2293a149556102620024439f5a9e1296c3082291b4e45cbc175705a54fed54acd67b64aba17698555220331f2906e2ea2f99148dc0fb9b94043259074088080ed91e3809ae698b8537f592cb494fc3c2d0d9f3c5a79104765f5c5945dfe6084c4670384b310ba8834eb7a47e6d0df577f49bc5708329b33ceb4e269426f4779dbf62479ac894a67cb786ad03fb195b64140c83a5d38490275fd74daef3dd1c64c242ea032de7e079ea6709253bbde74fbdaebf38beed96c7d61574531b
     m_Human:
       data:
         serializedVersion: 2
@@ -1184,7 +1128,7 @@ Avatar:
                 m_Max: {x: 0, y: 0.6981317, z: 1.3962634}
               m_Length: 0.055269968
               m_Type: 1
-            - m_PreQ: {x: 0.15035601, y: 0.02226525, z: 0.94561285, w: -0.28759983}
+            - m_PreQ: {x: 0.15035601, y: 0.022265248, z: 0.94561285, w: -0.2875998}
               m_PostQ: {x: 0.07772633, y: 0.00015893979, z: 0.9969727, w: -0.0020386737}
               m_Sgn: {x: -1, y: -1, z: -1}
               m_Limit:
@@ -1296,7 +1240,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.61086524}
               m_Length: 0.02636139
               m_Type: 1
-            - m_PreQ: {x: 0.09905813, y: 0.6939239, z: 0.70013386, w: -0.1359029}
+            - m_PreQ: {x: 0.09905813, y: 0.69392383, z: 0.70013386, w: -0.1359029}
               m_PostQ: {x: 0.23444206, y: 0.65379566, z: 0.6671109, w: -0.26935345}
               m_Sgn: {x: -1, y: 1, z: 1}
               m_Limit:
@@ -1344,7 +1288,7 @@ Avatar:
                 m_Max: {x: 0, y: 0.34906584, z: 0.87266463}
               m_Length: 0.030596705
               m_Type: 1
-            - m_PreQ: {x: 0.018542645, y: 0.053209804, z: 0.32855007, w: -0.9428043}
+            - m_PreQ: {x: 0.018542645, y: 0.05320981, z: 0.32855007, w: -0.9428044}
               m_PostQ: {x: -0.0009338706, y: -0.056340396, z: -0.016546898, w: 0.9982741}
               m_Sgn: {x: 1, y: 1, z: 1}
               m_Limit:
@@ -1370,7 +1314,7 @@ Avatar:
               m_Length: 0.02891782
               m_Type: 1
             - m_PreQ: {x: -0.007700704, y: -0.024898456, z: 0.29537466, w: -0.9550261}
-              m_PostQ: {x: -0.0004898059, y: 0.026057515, z: 0.018787406, w: 0.9994839}
+              m_PostQ: {x: -0.0004898059, y: 0.026057512, z: 0.018787406, w: 0.99948376}
               m_Sgn: {x: 1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.7853982}
@@ -1378,14 +1322,14 @@ Avatar:
               m_Length: 0.016666478
               m_Type: 1
             - m_PreQ: {x: -0.007700704, y: -0.024898456, z: 0.29537466, w: -0.9550261}
-              m_PostQ: {x: -0.00048980594, y: 0.026057515, z: 0.018787408, w: 0.9994839}
+              m_PostQ: {x: -0.00048980594, y: 0.026057512, z: 0.018787408, w: 0.99948376}
               m_Sgn: {x: 1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.7853982}
                 m_Max: {x: 0, y: 0, z: 0.7853982}
               m_Length: 0.009374894
               m_Type: 1
-            - m_PreQ: {x: 0.009339545, y: 0.06962582, z: 0.30443332, w: -0.9499397}
+            - m_PreQ: {x: 0.009339545, y: 0.06962582, z: 0.30443332, w: -0.94993967}
               m_PostQ: {x: -0.00060215977, y: -0.032953862, z: -0.018259842, w: 0.99928993}
               m_Sgn: {x: 1, y: -1, z: 1}
               m_Limit:
@@ -1489,7 +1433,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.87266463}
               m_Length: 0.031529915
               m_Type: 1
-            - m_PreQ: {x: -0.5911879, y: 0.3697336, z: -0.6259961, w: 0.3491747}
+            - m_PreQ: {x: -0.5911879, y: 0.36973363, z: -0.6259961, w: 0.34917474}
               m_PostQ: {x: -0.4806473, y: 0.51917905, z: -0.508947, w: 0.4903103}
               m_Sgn: {x: -1, y: -1, z: 1}
               m_Limit:
@@ -1733,8 +1677,8 @@ Avatar:
         m_HasLeftHand: 1
         m_HasRightHand: 1
         m_HasTDoF: 0
-    m_HumanSkeletonIndexArray: 030000000400000005000000060000000700000014000000150000001600000017000000390000003a0000003b0000003c0000003d0000003e0000003f000000410000004200000043000000450000004600000047000000490000004a0000004b0000004d0000004e0000004f00000051000000520000005300000054000000550000005600000057000000590000005a0000005b0000005d0000005e0000005f000000610000006200000063000000650000006600000067000000690000006a0000006b0000006c0000006e0000006f0000007000000071000000
-    m_HumanSkeletonReverseIndexArray: ffffffffffffffffffffffff0000000001000000020000000300000004000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05000000060000000700000008000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff090000000a0000000b0000000c0000000d0000000e0000000f000000ffffffff100000001100000012000000ffffffff130000001400000015000000ffffffff160000001700000018000000ffffffff190000001a0000001b000000ffffffff1c0000001d0000001e0000001f000000200000002100000022000000ffffffff230000002400000025000000ffffffff260000002700000028000000ffffffff290000002a0000002b000000ffffffff2c0000002d0000002e000000ffffffff2f000000300000003100000032000000ffffffff33000000340000003500000036000000ffffffffffffffffffffffffffffffff
+    m_HumanSkeletonIndexArray: 030000000400000005000000060000000700000014000000150000001600000017000000320000003300000034000000350000003600000037000000380000003a0000003b0000003c0000003e0000003f000000400000004200000043000000440000004600000047000000480000004a0000004b0000004c0000004d0000004e0000004f000000500000005200000053000000540000005600000057000000580000005a0000005b0000005c0000005e0000005f00000060000000620000006300000064000000650000006700000068000000690000006a000000
+    m_HumanSkeletonReverseIndexArray: ffffffffffffffffffffffff0000000001000000020000000300000004000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff05000000060000000700000008000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff090000000a0000000b0000000c0000000d0000000e0000000f000000ffffffff100000001100000012000000ffffffff130000001400000015000000ffffffff160000001700000018000000ffffffff190000001a0000001b000000ffffffff1c0000001d0000001e0000001f000000200000002100000022000000ffffffff230000002400000025000000ffffffff260000002700000028000000ffffffff290000002a0000002b000000ffffffff2c0000002d0000002e000000ffffffff2f000000300000003100000032000000ffffffff33000000340000003500000036000000ffffffffffffffffffffffffffffffff
     m_RootMotionBoneIndex: -1
     m_RootMotionBoneX:
       t: {x: 0, y: 0, z: 0}
@@ -1750,61 +1694,49 @@ Avatar:
         m_X: []
     m_RootMotionSkeletonIndexArray: 
   m_TOS:
-    1136130350: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3/J_Bip_L_Thumb3_end
     2557469430: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand
-    3049115562: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ddfbfdff-c4cf-43a6-804b-6c67deb675bd/HairJoint-bff0a74b-10d3-45d0-9cb7-c9c01de637df
     2539625: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_C_Food
-    2984749765: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b567454c-e755-469a-80ff-e72d16687725
-    3588626854: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7694b785-10b3-4800-979a-35d67da38916/HairJoint-a62de2e6-361b-4be9-b9b0-22242f2223fe/HairJoint-6acebf79-0c11-4a72-9294-2a7d7d97c0ca
     2907216216: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1/J_Sec_R_Bust2
-    1035640744: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a7f93369-2f91-404a-859d-86b8665da9a3
+    2097463471: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3108a026-0207-40df-b250-f1b08aa2efb3/HairJoint-fb87061d-6b81-4eb1-8915-e4d039d8fc13
     3107582202: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm
+    640962056: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-22b9a26c-4400-48b0-936c-e70b3b5751e4
     421640519: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm
-    3376951303: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a7f93369-2f91-404a-859d-86b8665da9a3/HairJoint-fab24432-d98f-4510-99a9-626865b012c8
-    2412648420: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot
+    491228702: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c5bed7b1-0cc0-4f26-88b5-867c1b48330f
     3930221015: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder
     1804469774: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3/J_Bip_L_Index3_end
     1868957532: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1
+    2412648420: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot
+    4105787426: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3108a026-0207-40df-b250-f1b08aa2efb3
     3575869646: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_FoodString1/J_Sec_R_FoodString2/J_Sec_R_FoodString2_end
     2398687715: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3
-    3791636726: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b567454c-e755-469a-80ff-e72d16687725/HairJoint-7d6d83f8-69ae-4e81-9fb9-c48e36488636
     1087420710: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_FoodString1/J_Sec_L_FoodString2
     3558881564: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1
-    2093582050: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bd31d33e-a207-467a-8c09-5f6088cc41b2
+    3551194168: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e86aa763-e394-475c-b4d6-8842d1667ada/HairJoint-50ddb74d-f513-4cad-9854-fa5df6227828
     3071234366: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1
     1316667487: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_FoodString1/J_Sec_L_FoodString2/J_Sec_L_FoodString2_end
-    2724298807: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7694b785-10b3-4800-979a-35d67da38916
+    3886051365: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-57c5b8f6-b044-40db-80cb-863cdeb7801b
+    1969538635: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-83fb7b48-4f47-4827-ba61-cb7cd5d047c3
     2450175553: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2
     3866818490: Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg
+    3231703127: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b564afd7-9978-4add-860d-b254943725fd
     458454037: secondary
     2136880292: Root/J_Bip_C_Hips
-    3092310273: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c2c06e32-5ec1-42ed-bf89-3b029356f1bd/HairJoint-fde5d91a-d928-4398-9f08-7163bf6b12a2
     199110683: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2/J_Bip_R_Ring3
     2770785369: Face
     1657667476: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2/J_Bip_L_Middle3/J_Bip_L_Middle3_end
-    2621384438: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ab5bfb82-8142-423b-b767-592ebc6160e8/HairJoint-3d789c5b-7991-40b3-bc69-556c20fb6d40
     886386421: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2
-    1452720528: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c2c06e32-5ec1-42ed-bf89-3b029356f1bd
-    2334801356: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-0aeab654-28f8-4389-91d2-3430acadca14/HairJoint-744a3fd1-87e6-4bdf-92e8-5212386cca75
-    3865746045: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-9c2b32e9-125e-4be3-98e1-7e5082be1c4e
-    796713603: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bd31d33e-a207-467a-8c09-5f6088cc41b2/HairJoint-d75fd732-86f8-49af-acc7-9af8030d441f
+    2798983582: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b564afd7-9978-4add-860d-b254943725fd/HairJoint-68400dcc-4624-4e83-9ea9-3ab47d484129/HairJoint-6c7dd033-7860-46d4-89b9-f257ec081980/HairJoint-27a30061-da20-4d0b-aef1-d46c43e06f16
+    380710353: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d3fb68f4-1328-4f6a-b5c8-b60ade34751d/HairJoint-d3fe346a-43bd-43be-a936-539f5162a847/HairJoint-05442ea7-b2d9-4b9a-a79c-c4812438c526/HairJoint-d35b8f92-52c9-4d9e-b967-d60fb3216465
     423905711: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2
-    105146253: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-97a2cd79-2aa5-4865-96e5-ac868cdec04a/HairJoint-28f8fe21-037d-412e-a700-973c7817adf4
     2115489687: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3
     3821133455: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1
-    3436138872: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ab5bfb82-8142-423b-b767-592ebc6160e8/HairJoint-3d789c5b-7991-40b3-bc69-556c20fb6d40/HairJoint-793c8753-dada-4b99-aa07-918f7fe26235
     0: 
-    3137601490: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ddfbfdff-c4cf-43a6-804b-6c67deb675bd
-    2767279154: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-5177aeb1-8d7e-4fc8-8e5b-126366e83f7e/HairJoint-ab9e2442-36c8-4280-83f6-ac8282d5e38c/HairJoint-392e5606-1258-4394-92d9-5ef5adbd485a
-    2227941580: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-97a2cd79-2aa5-4865-96e5-ac868cdec04a
+    2041825101: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-8c56feaf-4125-4567-8e2b-6afd7898f156/HairJoint-2852fce3-c863-4e94-a1e4-7814aba8106c/HairJoint-9f0aa8f5-de3f-415f-bb98-09bba16608c7/HairJoint-6e37646e-813e-4d11-b271-69522930d8c1
     1641424447: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3/J_Bip_R_Thumb3_end
-    1502870326: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-5177aeb1-8d7e-4fc8-8e5b-126366e83f7e/HairJoint-ab9e2442-36c8-4280-83f6-ac8282d5e38c
-    786962943: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-0aeab654-28f8-4389-91d2-3430acadca14/HairJoint-744a3fd1-87e6-4bdf-92e8-5212386cca75/HairJoint-2501830b-7bc0-42c7-8b78-e98cea53d6ad
     317819110: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest
-    3621297499: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-9c2b32e9-125e-4be3-98e1-7e5082be1c4e/HairJoint-10f116dd-7521-4eb7-894a-39a4f6cd8383
-    3947992420: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a00e8a3b-75ea-4c2f-992e-e3c75e807591
-    3542472844: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder
+    1544830169: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-22b9a26c-4400-48b0-936c-e70b3b5751e4/HairJoint-3ee849e8-d3c5-44dd-a037-8e6633df0316
     1544338477: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2
+    3542472844: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder
     2180915214: Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot
     43560268: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3
     1851616533: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1
@@ -1813,61 +1745,66 @@ Avatar:
     20778455: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2
     2869268801: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2
     3138913460: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_L_FaceEye
+    936826221: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-22b9a26c-4400-48b0-936c-e70b3b5751e4/HairJoint-3ee849e8-d3c5-44dd-a037-8e6633df0316/HairJoint-3069beba-76cb-497e-a502-f827b7698216/HairJoint-44b6a170-eada-4f92-9fa1-a74a396a2884
     2971065228: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3
-    646997287: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ddfbfdff-c4cf-43a6-804b-6c67deb675bd/HairJoint-bff0a74b-10d3-45d0-9cb7-c9c01de637df/HairJoint-2a6a5f8e-585c-4299-9f6a-276141f14645
     2933799879: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3
     1069367079: Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase/J_Bip_R_ToeBase_end
     553328450: Hairs/Hair001
     1427115262: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head
+    2050299949: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-22b9a26c-4400-48b0-936c-e70b3b5751e4/HairJoint-3ee849e8-d3c5-44dd-a037-8e6633df0316/HairJoint-3069beba-76cb-497e-a502-f827b7698216
     4174620348: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1
     3743063383: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_R_FaceEye
     1345278037: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm
     3175238491: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2
+    2184592527: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d3fb68f4-1328-4f6a-b5c8-b60ade34751d
     4289881849: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg
     3568898883: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1
     4003749906: Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase
-    1938867640: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3/J_Bip_R_Middle3_end
+    1361363016: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-83fb7b48-4f47-4827-ba61-cb7cd5d047c3/HairJoint-aed12a2c-8f3c-4efd-beab-12f2fb0a0301
     42098839: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1/J_Sec_L_Bust2
     3044949467: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest
     1378952062: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1
+    1938867640: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3/J_Bip_R_Middle3_end
     2919613461: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2
     4115249942: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3
-    2446375438: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-169b69a2-1ae9-4e68-b00c-b843046b5acf
+    1525593111: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b564afd7-9978-4add-860d-b254943725fd/HairJoint-68400dcc-4624-4e83-9ea9-3ab47d484129/HairJoint-6c7dd033-7860-46d4-89b9-f257ec081980
+    1533071283: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-8c56feaf-4125-4567-8e2b-6afd7898f156
     883055618: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1
     2758342012: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_C_Food/J_Sec_C_Food_end
+    599469031: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-57c5b8f6-b044-40db-80cb-863cdeb7801b/HairJoint-a95cec52-1ff4-4aa1-af3c-58c106f490e4
     728316428: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg
     491801863: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3
     3408118188: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_FoodString1
-    1317181041: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-97a2cd79-2aa5-4865-96e5-ac868cdec04a/HairJoint-28f8fe21-037d-412e-a700-973c7817adf4/HairJoint-2be8b58a-2a90-44d2-b944-cee210ef7649
     1670723497: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase/J_Bip_L_ToeBase_end
+    3483901733: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d3fb68f4-1328-4f6a-b5c8-b60ade34751d/HairJoint-d3fe346a-43bd-43be-a936-539f5162a847/HairJoint-05442ea7-b2d9-4b9a-a79c-c4812438c526
     1246455351: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2
     2041122356: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1
     356278891: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3
-    149241229: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a7f93369-2f91-404a-859d-86b8665da9a3/HairJoint-fab24432-d98f-4510-99a9-626865b012c8/HairJoint-bf0ebdf8-d32f-498b-a2cc-b255be5f7064
+    1979859257: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e86aa763-e394-475c-b4d6-8842d1667ada
     4162910700: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3/J_Bip_R_Little3_end
-    3708633290: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7694b785-10b3-4800-979a-35d67da38916/HairJoint-a62de2e6-361b-4be9-b9b0-22242f2223fe
+    1945784050: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d3fb68f4-1328-4f6a-b5c8-b60ade34751d/HairJoint-d3fe346a-43bd-43be-a936-539f5162a847
     2989124671: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1
-    1298081102: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-169b69a2-1ae9-4e68-b00c-b843046b5acf/HairJoint-e6d75ca2-7671-4327-96d8-657a30c9e6b7
     3066451557: Root
-    2999324063: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a00e8a3b-75ea-4c2f-992e-e3c75e807591/HairJoint-687aeefe-e17d-46c0-a5cf-94c48a369bfc
     490718561: Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase
     1777957277: Root/J_Bip_C_Hips/J_Bip_C_Spine
-    2693910338: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-0aeab654-28f8-4389-91d2-3430acadca14
+    3691348096: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-8c56feaf-4125-4567-8e2b-6afd7898f156/HairJoint-2852fce3-c863-4e94-a1e4-7814aba8106c
+    611208253: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-b564afd7-9978-4add-860d-b254943725fd/HairJoint-68400dcc-4624-4e83-9ea9-3ab47d484129
     1361808229: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand
     2073732236: Body
-    2234427592: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-5177aeb1-8d7e-4fc8-8e5b-126366e83f7e
-    3191390126: Hairs
+    859854667: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c5bed7b1-0cc0-4f26-88b5-867c1b48330f/HairJoint-012b77d5-1a6a-470e-b2b0-a29ec0f75668
     3917333440: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3/J_Bip_L_Little3_end
     1239925014: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm
     1240455455: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3/J_Bip_R_Index3_end
     302943063: Root/J_Bip_C_Hips/J_Bip_R_UpperLeg
+    3191390126: Hairs
+    869492976: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-8c56feaf-4125-4567-8e2b-6afd7898f156/HairJoint-2852fce3-c863-4e94-a1e4-7814aba8106c/HairJoint-9f0aa8f5-de3f-415f-bb98-09bba16608c7
     677580999: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck
     2349041180: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3/J_Bip_L_Ring3_end
     2244111302: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_FoodString1
     3214659867: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2
     4192783605: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1
     221311757: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_FoodString1/J_Sec_R_FoodString2
-    329177540: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-ab5bfb82-8142-423b-b767-592ebc6160e8
+    1136130350: Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3/J_Bip_L_Thumb3_end
   m_HumanDescription:
     serializedVersion: 3
     m_Human:
@@ -2351,7 +2288,7 @@ Avatar:
       m_Scale: {x: 1, y: 1, z: 1}
     - m_Name: J_Sec_L_Bust2
       m_ParentName: 
-      m_Position: {x: -0.037794452, y: 0.0035501719, z: 0.06570919}
+      m_Position: {x: -0.032060545, y: 0.005343318, z: 0.06025905}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
     - m_Name: J_Sec_R_Bust1
@@ -2361,7 +2298,7 @@ Avatar:
       m_Scale: {x: 1, y: 1, z: 1}
     - m_Name: J_Sec_R_Bust2
       m_ParentName: 
-      m_Position: {x: 0.037794467, y: 0.003550291, z: 0.06570921}
+      m_Position: {x: 0.03206056, y: 0.005343437, z: 0.06025906}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
     - m_Name: J_Sec_C_Food
@@ -2424,169 +2361,134 @@ Avatar:
       m_Position: {x: 0.019336952, y: 0.059338927, z: 0.028601974}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-7694b785-10b3-4800-979a-35d67da38916
+    - m_Name: HairJoint-83fb7b48-4f47-4827-ba61-cb7cd5d047c3
       m_ParentName: 
-      m_Position: {x: -0.10217835, y: -0.0037617683, z: -0.044443414}
+      m_Position: {x: 0.0015025876, y: 0.1456244, z: 0.10591998}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-a62de2e6-361b-4be9-b9b0-22242f2223fe
+    - m_Name: HairJoint-aed12a2c-8f3c-4efd-beab-12f2fb0a0301
       m_ParentName: 
-      m_Position: {x: -0.020188354, y: -0.10500646, z: -0.016655557}
+      m_Position: {x: 0.0061759115, y: 0.028692484, z: -0.023932457}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-6acebf79-0c11-4a72-9294-2a7d7d97c0ca
+    - m_Name: HairJoint-3108a026-0207-40df-b250-f1b08aa2efb3
       m_ParentName: 
-      m_Position: {x: -0.015471257, y: -0.10609901, z: -0.015122913}
+      m_Position: {x: 0.08800436, y: 0.03666377, z: 0.030593298}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-a00e8a3b-75ea-4c2f-992e-e3c75e807591
-      m_ParentName: 
-      m_Position: {x: -0.09614754, y: 0.06977129, z: -0.025388546}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-687aeefe-e17d-46c0-a5cf-94c48a369bfc
-      m_ParentName: 
-      m_Position: {x: 0.010143921, y: -0.08644223, z: 0.022119217}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-169b69a2-1ae9-4e68-b00c-b843046b5acf
-      m_ParentName: 
-      m_Position: {x: 0.07891649, y: -0.009096026, z: 0.027753107}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-e6d75ca2-7671-4327-96d8-657a30c9e6b7
+    - m_Name: HairJoint-fb87061d-6b81-4eb1-8915-e4d039d8fc13
       m_ParentName: 
       m_Position: {x: 0, y: 0, z: 0}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-c2c06e32-5ec1-42ed-bf89-3b029356f1bd
+    - m_Name: HairJoint-57c5b8f6-b044-40db-80cb-863cdeb7801b
       m_ParentName: 
-      m_Position: {x: -0.07900565, y: -0.009179831, z: 0.027433768}
+      m_Position: {x: -0.08809689, y: 0.0365901, z: 0.030214548}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-fde5d91a-d928-4398-9f08-7163bf6b12a2
+    - m_Name: HairJoint-a95cec52-1ff4-4aa1-af3c-58c106f490e4
       m_ParentName: 
       m_Position: {x: 0, y: 0, z: 0}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-ddfbfdff-c4cf-43a6-804b-6c67deb675bd
+    - m_Name: HairJoint-e86aa763-e394-475c-b4d6-8842d1667ada
       m_ParentName: 
-      m_Position: {x: 0.0074271164, y: -0.01765275, z: -0.11215436}
+      m_Position: {x: 0.10179005, y: -0.120218396, z: -0.093342714}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-bff0a74b-10d3-45d0-9cb7-c9c01de637df
+    - m_Name: HairJoint-50ddb74d-f513-4cad-9854-fa5df6227828
       m_ParentName: 
-      m_Position: {x: -0.0040453626, y: -0.10033429, z: -0.002053246}
+      m_Position: {x: 0.0011918321, y: -0.00051891804, z: 0.0007906407}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-2a6a5f8e-585c-4299-9f6a-276141f14645
+    - m_Name: HairJoint-c5bed7b1-0cc0-4f26-88b5-867c1b48330f
       m_ParentName: 
-      m_Position: {x: -0.004677154, y: -0.100384235, z: 0.0025573522}
+      m_Position: {x: -0.10559472, y: -0.12022424, z: -0.093339615}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-a7f93369-2f91-404a-859d-86b8665da9a3
+    - m_Name: HairJoint-012b77d5-1a6a-470e-b2b0-a29ec0f75668
       m_ParentName: 
-      m_Position: {x: 0.08048506, y: 0.062011957, z: 0.035394475}
+      m_Position: {x: -0.0012557283, y: -0.0005283356, z: 0.00079524517}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-fab24432-d98f-4510-99a9-626865b012c8
+    - m_Name: HairJoint-8c56feaf-4125-4567-8e2b-6afd7898f156
       m_ParentName: 
-      m_Position: {x: 0.04476005, y: -0.11267257, z: 0.0078233965}
+      m_Position: {x: 0.08509512, y: 0.074281216, z: 0.000014938414}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-bf0ebdf8-d32f-498b-a2cc-b255be5f7064
+    - m_Name: HairJoint-2852fce3-c863-4e94-a1e4-7814aba8106c
       m_ParentName: 
-      m_Position: {x: 0.041751564, y: -0.11425495, z: -0.0014138743}
+      m_Position: {x: 0.024132155, y: -0.07452381, z: -0.020248473}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-5177aeb1-8d7e-4fc8-8e5b-126366e83f7e
+    - m_Name: HairJoint-9f0aa8f5-de3f-415f-bb98-09bba16608c7
       m_ParentName: 
-      m_Position: {x: -0.08937008, y: 0.040455222, z: 0.038193457}
+      m_Position: {x: 0.010363989, y: -0.07485688, z: -0.029660292}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-ab9e2442-36c8-4280-83f6-ac8282d5e38c
+    - m_Name: HairJoint-6e37646e-813e-4d11-b271-69522930d8c1
       m_ParentName: 
-      m_Position: {x: -0.044114105, y: -0.10070217, z: -0.00045884028}
+      m_Position: {x: 0.009457603, y: -0.07477057, z: -0.030227058}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-392e5606-1258-4394-92d9-5ef5adbd485a
+    - m_Name: HairJoint-22b9a26c-4400-48b0-936c-e70b3b5751e4
       m_ParentName: 
-      m_Position: {x: -0.043413922, y: -0.10087013, z: -0.007150147}
+      m_Position: {x: -0.062204167, y: -0.028301, z: -0.08663952}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-bd31d33e-a207-467a-8c09-5f6088cc41b2
+    - m_Name: HairJoint-3ee849e8-d3c5-44dd-a037-8e6633df0316
       m_ParentName: 
-      m_Position: {x: 0.108985424, y: -0.12755561, z: -0.083149634}
+      m_Position: {x: -0.014901973, y: -0.06441283, z: 0.00012999028}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-d75fd732-86f8-49af-acc7-9af8030d441f
+    - m_Name: HairJoint-3069beba-76cb-497e-a502-f827b7698216
       m_ParentName: 
-      m_Position: {x: 0.0012185052, y: -0.0005737543, z: 0.00070668757}
+      m_Position: {x: -0.014422126, y: -0.06440699, z: 0.0042825043}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-9c2b32e9-125e-4be3-98e1-7e5082be1c4e
+    - m_Name: HairJoint-44b6a170-eada-4f92-9fa1-a74a396a2884
       m_ParentName: 
-      m_Position: {x: -0.108992174, y: -0.12756205, z: -0.08314697}
+      m_Position: {x: -0.014561862, y: -0.06443536, z: 0.0031264275}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-10f116dd-7521-4eb7-894a-39a4f6cd8383
+    - m_Name: HairJoint-d3fb68f4-1328-4f6a-b5c8-b60ade34751d
       m_ParentName: 
-      m_Position: {x: -0.001229316, y: -0.0005841255, z: 0.0007107407}
+      m_Position: {x: -0.09464567, y: 0.043883324, z: 0.027548552}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-ab5bfb82-8142-423b-b767-592ebc6160e8
+    - m_Name: HairJoint-d3fe346a-43bd-43be-a936-539f5162a847
       m_ParentName: 
-      m_Position: {x: 0.08013847, y: -0.012952328, z: -0.070600785}
+      m_Position: {x: -0.009025753, y: -0.06904054, z: 0.02074856}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-3d789c5b-7991-40b3-bc69-556c20fb6d40
+    - m_Name: HairJoint-05442ea7-b2d9-4b9a-a79c-c4812438c526
       m_ParentName: 
-      m_Position: {x: 0.018404193, y: -0.104741216, z: -0.009844556}
+      m_Position: {x: -0.0017853752, y: -0.06901002, z: 0.022891898}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-793c8753-dada-4b99-aa07-918f7fe26235
+    - m_Name: HairJoint-d35b8f92-52c9-4d9e-b967-d60fb3216465
       m_ParentName: 
-      m_Position: {x: 0.015531711, y: -0.105562925, z: -0.0059401393}
+      m_Position: {x: -0.0023186728, y: -0.06904006, z: 0.022743486}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-b567454c-e755-469a-80ff-e72d16687725
+    - m_Name: HairJoint-b564afd7-9978-4add-860d-b254943725fd
       m_ParentName: 
-      m_Position: {x: 0.09854622, y: 0.020126104, z: -0.034121163}
+      m_Position: {x: 0.057572357, y: 0.019174576, z: -0.08567992}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-7d6d83f8-69ae-4e81-9fb9-c48e36488636
+    - m_Name: HairJoint-68400dcc-4624-4e83-9ea9-3ab47d484129
       m_ParentName: 
-      m_Position: {x: -0.0029968247, y: -0.05740094, z: 0.0015928894}
+      m_Position: {x: 0.017678462, y: -0.07995808, z: -0.002731569}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-97a2cd79-2aa5-4865-96e5-ac868cdec04a
+    - m_Name: HairJoint-6c7dd033-7860-46d4-89b9-f257ec081980
       m_ParentName: 
-      m_Position: {x: -0.04931213, y: 0.02788663, z: -0.079038665}
+      m_Position: {x: 0.015488699, y: -0.08038056, z: 0.0041325763}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-28f8fe21-037d-412e-a700-973c7817adf4
+    - m_Name: HairJoint-27a30061-da20-4d0b-aef1-d46c43e06f16
       m_ParentName: 
-      m_Position: {x: -0.016702503, y: -0.12554741, z: -0.009880997}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-2be8b58a-2a90-44d2-b944-cee210ef7649
-      m_ParentName: 
-      m_Position: {x: -0.008022651, y: -0.12653041, z: -0.00929077}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-0aeab654-28f8-4389-91d2-3430acadca14
-      m_ParentName: 
-      m_Position: {x: -0.07907695, y: -0.011296034, z: -0.09121456}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-744a3fd1-87e6-4bdf-92e8-5212386cca75
-      m_ParentName: 
-      m_Position: {x: -0.00836806, y: -0.06251645, z: -0.0014215261}
-      m_Rotation: {x: -0, y: -0, z: -0, w: 1}
-      m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: HairJoint-2501830b-7bc0-42c7-8b78-e98cea53d6ad
-      m_ParentName: 
-      m_Position: {x: -0.00806734, y: -0.062573195, z: -0.00083093345}
+      m_Position: {x: 0.015172437, y: -0.08039248, z: 0.0050928667}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
     - m_Name: J_Bip_L_Shoulder
