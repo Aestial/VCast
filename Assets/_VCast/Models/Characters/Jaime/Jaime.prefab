@@ -1279,12 +1279,6 @@ MonoBehaviour:
     FirstPersonFlag: 0
   - Renderer: {fileID: 7191902989558813404}
     FirstPersonFlag: 0
-  - Renderer: {fileID: 4523499440064678274}
-    FirstPersonFlag: 0
-  - Renderer: {fileID: 1811320754066672966}
-    FirstPersonFlag: 0
-  - Renderer: {fileID: 7191902989558813404}
-    FirstPersonFlag: 0
 --- !u!114 &7303092178700830132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,7 +1944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: Hood
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.75
   m_gravityPower: 0
@@ -1975,7 +1968,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: HoodString
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.26
   m_gravityPower: 0.25
@@ -2001,7 +1993,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2036,7 +2027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2071,7 +2061,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2106,7 +2095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2141,7 +2129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2176,7 +2163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2211,7 +2197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2246,7 +2231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2281,7 +2265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2316,7 +2299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2351,7 +2333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2386,7 +2367,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2421,7 +2401,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2456,7 +2435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2491,7 +2469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2526,7 +2503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2561,7 +2537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2596,7 +2571,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2631,7 +2605,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2666,7 +2639,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.79769737
   m_gravityPower: 0
@@ -2701,7 +2673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2736,7 +2707,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -2771,7 +2741,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -2806,7 +2775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -3523,13 +3491,13 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: 750d265733339439a81b55a9bed5b6ec, type: 2}
   - {fileID: 2100000, guid: 63b4b758a6eec4588b9f931b48d41e68, type: 2}
   - {fileID: 2100000, guid: b18e5efc191d54d909f575d7d434d9b9, type: 2}
-  - {fileID: 2100000, guid: 51f8299d1d9974aa4a37726ab1a6ee10, type: 2}
+  - {fileID: 2100000, guid: 37a8a680893fd69878cdf52fa0c87f3c, type: 2}
   - {fileID: 2100000, guid: 0f90001edf19d48babc4cf108dd4cf30, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 5470899181355861072}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1
@@ -3882,7 +3850,7 @@ SkinnedMeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 5470899181355861072}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1
@@ -4298,7 +4266,7 @@ SkinnedMeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 5470899181355861072}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1

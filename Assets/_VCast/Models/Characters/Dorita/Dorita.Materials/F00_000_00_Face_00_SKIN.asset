@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 9d9796a12d40044dd961dca6865c769c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ccd840cf924b049384a4c82cc3a05d0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -70,7 +70,7 @@ Material:
     - _DstBlend: 0
     - _IndirectLightIntensity: 0.1
     - _LightColorAttenuation: 0
-    - _MToonVersion: 33
+    - _MToonVersion: 38
     - _OutlineColorMode: 0
     - _OutlineCullMode: 1
     - _OutlineLightingMix: 1
