@@ -5762,6 +5762,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf43a7dd258b42b41a217fc2f452aeda, type: 3}
+--- !u!21 &316698875
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!4 &356190335 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b7996c6056fc7ade98c6edd35f00fa0,
@@ -5942,40 +5976,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589707991}
   m_CullTransparentMesh: 0
---- !u!21 &592611387
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &599612779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6305,7 +6305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -7221,7 +7221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.990566, g: 1, b: 0.98879135, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -12543,7 +12543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -12932,7 +12932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.8784314, g: 0.46666667, b: 0.6, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13361,7 +13361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.85882354, g: 0.7411765, b: 0.87058824, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13544,7 +13544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.8784314, g: 0.46666667, b: 0.6, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13704,7 +13704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 1, g: 0.8666209, b: 0.8588083, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -19234,7 +19234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.85882354, g: 0.7411765, b: 0.87058824, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -19487,7 +19487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 1, g: 0.8666209, b: 0.8588083, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -19769,7 +19769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 592611387}
+  m_Material: {fileID: 316698875}
   m_Color: {r: 0.8784314, g: 0.46666667, b: 0.6, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -20530,7 +20530,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.49923274
   m_gravityPower: 0
@@ -30186,7 +30185,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: Hood
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.75
   m_gravityPower: 0
@@ -30308,7 +30306,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0
   m_gravityPower: 0
@@ -30662,7 +30659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.79769737
   m_gravityPower: 0
@@ -30918,7 +30914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: Hood
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8333334
   m_gravityPower: 0
@@ -31107,7 +31102,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -31344,7 +31338,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: HoodString
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.28888887
   m_gravityPower: 0.25
@@ -31592,7 +31585,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -31627,7 +31619,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -32200,7 +32191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.48049515
   m_gravityPower: 0
@@ -32553,6 +32543,7 @@ GameObject:
   - component: {fileID: 2092453811165124778}
   - component: {fileID: 2092453811165124777}
   - component: {fileID: 2092453811165124776}
+  - component: {fileID: 2092453811165124779}
   m_Layer: 0
   m_Name: Dorita
   m_TagString: Untagged
@@ -32755,6 +32746,22 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: 9c4d6dfe17006ccaa8fb6211c53f3349, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!114 &2092453811165124779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092453811165124775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ea1f88e8d74e04e9341465573a4ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interval: 5
+  ClosingTime: 0.06
+  OpeningSeconds: 0.03
+  CloseSeconds: 0.1
 --- !u!1 &2114296726083414641
 GameObject:
   m_ObjectHideFlags: 0
@@ -32864,7 +32871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -33468,7 +33474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: HoodString
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.26
   m_gravityPower: 0.25
@@ -33594,7 +33599,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -33705,7 +33709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -33986,7 +33989,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -34472,7 +34474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -34606,7 +34607,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -34688,7 +34688,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -34930,7 +34929,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0
   m_gravityPower: 0
@@ -35120,7 +35118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -40448,7 +40445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.3754332
   m_gravityPower: 0
@@ -41043,7 +41039,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: Bust
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8333334
   m_gravityPower: 0
@@ -41083,7 +41078,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -41359,7 +41353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -41426,7 +41419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.38739344
   m_gravityPower: 0
@@ -41523,7 +41515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -41673,6 +41664,7 @@ GameObject:
   - component: {fileID: 7887513711824389066}
   - component: {fileID: 4999305875177344963}
   - component: {fileID: 4999305875177344962}
+  - component: {fileID: 4999305875177344964}
   m_Layer: 0
   m_Name: Jaime
   m_TagString: Untagged
@@ -41900,6 +41892,22 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: 9c4d6dfe17006ccaa8fb6211c53f3349, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!114 &4999305875177344964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999305875177344961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ea1f88e8d74e04e9341465573a4ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interval: 5
+  ClosingTime: 0.06
+  OpeningSeconds: 0.03
+  CloseSeconds: 0.1
 --- !u!4 &5021072547468539453
 Transform:
   m_ObjectHideFlags: 0
@@ -43389,7 +43397,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4299516
   m_gravityPower: 0
@@ -43565,7 +43572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.38942963
   m_gravityPower: 0
@@ -43878,7 +43884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -44046,7 +44051,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -44357,7 +44361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -44991,7 +44994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4992046
   m_gravityPower: 0
@@ -45026,7 +45028,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -45197,7 +45198,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -45296,7 +45296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.8
   m_gravityPower: 0
@@ -45493,7 +45492,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -45620,7 +45618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.38985616
   m_gravityPower: 0
@@ -45901,7 +45898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.47580034
   m_gravityPower: 0
@@ -46580,7 +46576,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
@@ -46623,7 +46618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_comment: 
-  m_drawGizmo: 0
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.4
   m_gravityPower: 0
